@@ -1,0 +1,180 @@
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      padding-top:100px;
+    }
+    * {
+  box-sizing: border-box;
+}
+main {
+    padding-top:100px;
+  }
+.admin form{
+  width: 100%;
+  margin-left:2px;
+ 
+}
+.admin input[type=text], select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.admin label {
+  padding: 5px 5px 5px 0;
+  display: inline-block;
+  
+}
+
+/* .admin input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  
+} */
+
+/* .admin input[type=submit]:hover {
+  background-color: #45a049;
+}
+.btn[type=submit] {
+  width: 100%;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+/* .btn[type=submit]:hover {
+  background-color: #45a049;
+}
+.admin z {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-left:10%;
+  margin-right:2%;
+} */
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 100%;
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+h3{
+  margin-left:90px;
+  padding-bottom:25px;
+
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+  /* .admin input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+width:80px;
+
+margin-left:500px;
+} */
+
+  
+
+div.demo {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left:90px;
+  margin-right:90px;
+}
+.btn1 {
+  background-color: #4ebe80;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  opacity: 0.9;
+  margin-left:950px;;
+  
+}
+
+.btn1:hover {
+  opacity: 1;
+};
+.page{
+  margin-left:200px;
+}
+.about h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #21413c;
+}
+.about .icon-box {
+  margin-top: 44px;
+}
+.about .icon-box i {
+  font-size: 48px;
+  float: left;
+  color: #1bac91;
+}
+.about .icon-box h4 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 60px;
+  color: #21413c;
+}
+.about .icon-box p {
+  font-size: 15px;
+  color: #848484;
+  margin-left: 60px;
+}
+.w3-container h4{
+text-align:center;
+
+}
+#footer {
+  background: black;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom:0;
+}
